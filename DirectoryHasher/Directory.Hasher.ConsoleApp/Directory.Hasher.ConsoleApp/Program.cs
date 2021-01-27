@@ -1,12 +1,23 @@
 ﻿using System;
+using System.Globalization;
+using System.IO;
+using System.Threading.Tasks;
+using Directory.Hasher.Checksum.ContentHasher.Impl;
 
 namespace Directory.Hasher.ConsoleApp
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var hasher = new ChecksumContentProvider();
+
+            //get the hash value
+            var hash = 
+                await hasher
+                    .GetChecksumOfFileContentAsync(
+                        new FileInfo(@"C:\Users\Eduard\Desktop\RDSOS-merged.pdf"));
+
         }
     }
 }

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Hasher.ConsoleApp", "Directory.Hasher.ConsoleApp\Directory.Hasher.ConsoleApp.csproj", "{6C587F47-221F-4940-A07C-4E06EB7C0FCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Hasher.Checksum", "Directory.Hasher\Directory.Hasher.Checksum.csproj", "{B00AFC95-7555-41E4-98E2-7A7C3E151335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Hasher.Utility", "Directory.Hasher.Utility\Directory.Hasher.Utility.csproj", "{6DD0F805-9EEC-4119-B19C-69E5011A8454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6C587F47-221F-4940-A07C-4E06EB7C0FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C587F47-221F-4940-A07C-4E06EB7C0FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C587F47-221F-4940-A07C-4E06EB7C0FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00AFC95-7555-41E4-98E2-7A7C3E151335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00AFC95-7555-41E4-98E2-7A7C3E151335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00AFC95-7555-41E4-98E2-7A7C3E151335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00AFC95-7555-41E4-98E2-7A7C3E151335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD0F805-9EEC-4119-B19C-69E5011A8454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD0F805-9EEC-4119-B19C-69E5011A8454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD0F805-9EEC-4119-B19C-69E5011A8454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD0F805-9EEC-4119-B19C-69E5011A8454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
