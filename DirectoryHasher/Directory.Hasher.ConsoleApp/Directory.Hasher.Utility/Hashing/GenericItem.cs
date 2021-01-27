@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Directory.Hasher.Checksum.Item
+namespace Directory.Hasher.Utility.Hashing
 {
     public class GenericItem
     {

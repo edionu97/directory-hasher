@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
-using Directory.Hasher.Checksum.ContentHasher.Impl;
+using Directory.Hasher.Checksum.BasicByteBuffer.Impl;
+using Directory.Hasher.Checksum.DirectoryHasher.Hasher.Impl;
 
 namespace Directory.Hasher.ConsoleApp
 {
@@ -10,14 +10,14 @@ namespace Directory.Hasher.ConsoleApp
     {
         public static async Task Main(string[] args)
         {
-            var hasher = new ChecksumContentProvider();
+            const string path = @"";
 
-            //get the hash value
-            var hash = 
-                await hasher
-                    .GetChecksumOfFileContentAsync(
-                        new FileInfo(@"C:\Users\Eduard\Desktop\RDSOS-merged.pdf"));
+            var hasher = new DirectoryHasher(new BasicByteBasicByteContentHasher());
 
+            var basicGenericInfo =
+                (await hasher.GetDirectoryHashAsync(new DirectoryInfo(path)));
+
+            Console.WriteLine(basicGenericInfo.Hash);
         }
     }
 }

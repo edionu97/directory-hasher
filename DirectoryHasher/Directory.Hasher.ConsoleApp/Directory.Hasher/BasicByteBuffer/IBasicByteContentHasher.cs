@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
 
-namespace Directory.Hasher.Checksum.ContentHasher
+namespace Directory.Hasher.Checksum.BasicByteBuffer
 {
-    public interface IContentHasher
+    public interface IBasicByteContentHasher
     {
         /// <summary>
         /// This method computes for a file, the checksum of its content

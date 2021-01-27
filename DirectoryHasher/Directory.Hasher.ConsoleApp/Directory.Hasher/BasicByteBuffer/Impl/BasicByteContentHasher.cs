@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Directory.Hasher.Utility.ExtensionMethods;
 
-namespace Directory.Hasher.Checksum.ContentHasher.Impl
+namespace Directory.Hasher.Checksum.BasicByteBuffer.Impl
 {
-    public class ChecksumContentProvider : IContentHasher
+    public class BasicByteBasicByteContentHasher : IBasicByteContentHasher
     {
         public Task<string> GetChecksumOfFileContentAsync(FileInfo fileInfo)
         {
